@@ -153,6 +153,7 @@ p, li { text-wrap: pretty; }
 .product-head h2 { margin: 0; font-size: clamp(2.6rem, 6.4vw, 5.5rem); font-weight: 800; letter-spacing: -.035em; line-height: .96; }
 .wordmark span { color: var(--blue-text); }
 .product-lede { font-size: 1.15rem; margin: 0 0 1.2em; }
+.product-links { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 0; }
 .text-link { display: inline-flex; align-items: center; gap: .5em; font-weight: 600; }
 .text-link::after {
   content: ""; width: .85em; height: .85em; background: var(--i-arrow-blue) center / contain no-repeat; transition: transform .2s var(--ease);
