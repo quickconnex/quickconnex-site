@@ -16,6 +16,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://quickconnex.tech/#org",
+        "name": "QuickConnex LLC",
+        "url": "https://quickconnex.tech/",
+        "sameAs": ["https://www.linkedin.com/company/quickconnex"]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "RenoDesk",
+        "url": "https://www.reno-desk.com/",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "publisher": { "@id": "https://quickconnex.tech/#org" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -58,7 +80,10 @@
               One shared project for the consultant, lender, borrower, inspector and contractor on a renovation loan,
               so nobody has to ask where the file stands.
             </p>
-            <a class="text-link" href="mailto:info@quickconnex.tech?subject=RenoDesk">Ask us about RenoDesk</a>
+            <p class="product-links">
+              <a class="text-link" href="https://www.reno-desk.com/">Visit reno-desk.com</a>
+              <a class="text-link" href="mailto:info@quickconnex.tech?subject=RenoDesk">Ask us about RenoDesk</a>
+            </p>
           </div>
         </div>
         <ul class="boxes">
@@ -131,6 +156,7 @@
           <p class="tagline">Connecting the work that moves projects forward.</p>
         </div>
         <ul class="footer-links">
+          <li><a href="https://www.reno-desk.com/">RenoDesk</a></li>
           <li><a href="https://www.linkedin.com/company/quickconnex" rel="noopener" target="_blank">LinkedIn</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
